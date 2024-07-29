@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.transition-custom {
+    @apply transition-all duration-500 ease-linear;
+  }
+
+  
