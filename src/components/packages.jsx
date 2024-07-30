@@ -43,6 +43,7 @@ const Packages = () => {
                 src={item.imgURL}
                 alt={item.label}
                 className="h-[250px] w-full object-cover"
+                loading="lazy"
               />
               <div className="p-[20px]">
                 <div className="flex items-center gap-2">

@@ -53,6 +53,7 @@ const ReviewSlider = () => {
               src={review.imgURL}
               alt={review.person}
               className="w-[130px] h-[130px] rounded-full object-cover mb-[10px] mx-auto"
+              loading="lazy"
             />
             <h3 className="text-[#333] text-[25px]">{review.person}</h3>
             <p className="text-[#666] text-[15px] py-[10px]">{review.text}</p>

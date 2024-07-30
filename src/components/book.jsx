@@ -32,7 +32,7 @@ const Book = () => {
 
         <div className="flex flex-col lg:flex-row gap-6 items-center">
           <div className="flex-1 lg:basis-[40rem]">
-            <img src={book} alt="book" className="w-full" />
+            <img src={book} alt="book" className="w-full" loading="lazy"/>
           </div>
           <form className="flex-1 lg:basis-[40rem] py-5 px-8 rounded-lg border shadow-lg">
             <div>

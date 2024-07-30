@@ -27,6 +27,7 @@ const Slider = () => {
       <video
         src={sliderVids[currentIndex].vidURL}
         className="absolute top-0 left-0 h-full w-full object-cover z-[-1]"
+        loading="lazy"
         autoPlay
         muted
         loop

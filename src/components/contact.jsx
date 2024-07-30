@@ -31,7 +31,7 @@ const Contact = () => {
         </h1>
         <div className="flex flex-wrap gap-[15px] items-center">
           <div className="flex-1 basis-[350px]">
-            <img src={contact} alt="contact" className="" />
+            <img src={contact} alt="contact" className="" loading="lazy"/>
           </div>
           <form className="flex-1 basis-[500px] p-[20px] rounded-lg shadow-md">
             <div className="flex flex-wrap justify-between">
