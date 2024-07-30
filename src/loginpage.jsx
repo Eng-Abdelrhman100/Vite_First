@@ -18,11 +18,13 @@ const LoginPage = () => {
               type="email"
               placeholder="Email"
               className="py-6 pl-9 border border-[#e6e6e6] rounded-[10px] text-[#4f4f4f] "
+              aria-label="Email"
             />
             <input
               type="password"
               placeholder="Password"
               className="py-6 pl-9 border border-[#e6e6e6] rounded-[10px] "
+              aria-label="Password"
             />
           </form>
           <p className="text-[#4f4f4f] mb-9 text-left">Or continue with</p>

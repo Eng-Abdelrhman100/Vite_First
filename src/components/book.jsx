@@ -42,6 +42,7 @@ const Book = () => {
               <input
                 type="text"
                 className="w-full p-4 border border-black text-[17px] rounded-md"
+                aria-label="Destination"
               />
             </div>
             <div>
@@ -51,6 +52,7 @@ const Book = () => {
               <input
                 type="text"
                 className="w-full p-4 border border-black text-[17px] rounded-md"
+                aria-label="Quantity"
               />
             </div>
             <div>
@@ -60,6 +62,7 @@ const Book = () => {
               <input
                 type="date"
                 className="w-full p-4 border border-black text-[17px] rounded-md"
+                aria-label="Arrival"
               />
             </div>
             <div className="mb-4">
@@ -69,6 +72,7 @@ const Book = () => {
               <input
                 type="date"
                 className="w-full p-4 border border-black text-[17px] rounded-md"
+                aria-label="Leaving"
               />
             </div>
             <Button label={"Book Now"} BGcolor={"#0080ff"} />

@@ -48,12 +48,14 @@ const Slider = () => {
       <button
         className="absolute top-1/2 left-0 transform -translate-y-1/2 p-2  text-white opacity-30 hover:opacity-75 transition-opacity z-20"
         onClick={handlePrev}
+        aria-label="PrevButton"
       >
         <IoIosArrowBack size={60} />
       </button>
       <button
         className="absolute top-1/2 right-0   transform -translate-y-1/2 p-2  text-white opacity-30 hover:opacity-75 transition-opacity z-20"
         onClick={handleNext}
+        aria-label="NextButton"
       >
         <IoIosArrowForward size={60} />
       </button>

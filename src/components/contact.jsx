@@ -39,11 +39,13 @@ const Contact = () => {
                 type="text"
                 placeholder="name"
                 className="w-[49%] my-[10px] p-[10px] font-[17px] text-[#333] bg-[#f7f7f7]"
+                aria-label="Name"
               />
               <input
                 type="email"
                 placeholder="email"
                 className="w-[49%] my-[10px] p-[10px] font-[17px] text-[#333] bg-[#f7f7f7]"
+                aria-label="Email"
               />
             </div>
             <div className="flex flex-wrap justify-between">
@@ -56,6 +58,7 @@ const Contact = () => {
                 type="text"
                 placeholder="subject"
                 className="w-[49%] my-[10px] p-[10px] font-[17px] text-[#333] bg-[#f7f7f7]"
+                aria-label="Subject"
               />
             </div>
             <textarea
