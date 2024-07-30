@@ -51,25 +51,22 @@ const Packages = () => {
                 </div>
                 <p className="text-[17px] text-[#666] py-1 mb-2">{item.text}</p>
                 <div className="flex items-center gap-1  ">
-                <FaStar size={17} color="#0080ff" />
-                <FaStar size={17} color="#0080ff" />
-                <FaStar size={17} color="#0080ff" />
-                <FaStar size={17} color="#0080ff" />
-                <FaStar size={17} color="#ffffff" />
-              </div>
-              <div className="text-[20px] text-[#333] pt-[10px] ">
-                $90.00{" "}
-                <span className="text-[15px] text-[#666] line-through">
-                  $120.00
-                </span>
-              </div>
-              <div className=" py-3">
-                <a href="#">
+                  <FaStar size={17} color="#0080ff" />
+                  <FaStar size={17} color="#0080ff" />
+                  <FaStar size={17} color="#0080ff" />
+                  <FaStar size={17} color="#0080ff" />
+                  <FaStar size={17} color="#ffffff" />
+                </div>
+                <div className="text-[20px] text-[#333] pt-[10px] ">
+                  $90.00{" "}
+                  <span className="text-[15px] text-[#666] line-through">
+                    $120.00
+                  </span>
+                </div>
+                <div className=" py-3">
                   <Button label="Check Now" BGcolor="#0080ff" />
-                </a>
+                </div>
               </div>
-              </div>
-              
             </div>
           ))}
         </div>

@@ -43,11 +43,7 @@ const Gallery = () => {
               <div className="absolute inset-0 text-center bg-[rgba(0,0,0,0.7)] py-[50px] px-[20px] transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out">
                 <h3 className="text-[25px] text-[#0080ff]">{item.header}</h3>
                 <p className="text-[15px] text-white py-[5px] mb-2">{item.text}</p>
-                <a href="#">
-                  <button className="bg-[#0080ff] text-white py-2 px-4 rounded-lg hover:bg-[#005bb5] transition-colors duration-300 ease-in-out">
-                    See more
-                  </button>
-                </a>
+                <Button label="See more" BGcolor={"#0080ff"}/>
               </div>
             </div>
           ))}

@@ -40,9 +40,8 @@ const Slider = () => {
         <p className="text-white text-[16px] sm:text-[22px] md:text-[25px] lg:text-[25px] py-2">
           Discover New Places With Us, Adventure Awaits
         </p>
-        <a href="#">
-          <Button label="Discover More" BGcolor={"#0080ff"} />
-        </a>
+
+        <Button label="Discover More" BGcolor={"#0080ff"} />
       </div>
 
       {/* Prev and Next Buttons */}

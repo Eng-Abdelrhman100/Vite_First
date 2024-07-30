@@ -46,13 +46,13 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 w-full bg-black z-[1000] py-8 px-[7%]">
       <nav className="flex justify-between items-center">
-        <a
-          href="/"
-          className="text-white font-extrabold text-[2.15rem] whitespace-nowrap"
+        <div
+          
+          className="text-white font-extrabold text-[2.15rem] whitespace-nowrap cursor-pointer"
         >
           <span className="text-[#0080ff]">W</span>orld{" "}
           <span className="text-[#0080ff]">W</span>ide
-        </a>
+        </div>
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex flex-1 justify-center items-center">
