@@ -7,13 +7,13 @@ import {p1,p2,p3,p4,p5,p6,g1,g2,g3,g4,g5,g6,g7,g8,g9,pic1,pic2,pic3,pic4} from '
 
 
 export const navLinks = [
-    {href: "#home", label: "Home"},
-    {href: "#book", label: "Book"},
-    {href: "#package", label: "Package"},
-    {href: "#services", label: "Services"},
-    {href: "#gallery", label: "Gallery"},
-    {href: "#review", label: "Review"},
-    {href: "#contact", label: "Contact Us"}
+    {href: "home", label: "Home"},
+    {href: "book", label: "Book"},
+    {href: "package", label: "Package"},
+    {href: "services", label: "Services"},
+    {href: "gallery", label: "Gallery"},
+    {href: "review", label: "Review"},
+    {href: "contact", label: "Contact Us"}
 ]
 
 export const sliderVids = [
@@ -78,13 +78,13 @@ export const footer = [
   {
     header: "Quick Links",
     list: [
-      { name: "Home", href: "#home" },
-      { name: "Book", href: "#book" },
-      { name: "Packages", href: "#packages" },
-      { name: "Services", href: "#services" },
-      { name: "Gallery", href: "#gallery" },
-      { name: "Review", href: "#review" },
-      { name: "Contact", href: "#contact" }
+      { name: "Home", href: "home" },
+      { name: "Book", href: "book" },
+      { name: "Packages", href: "package" },
+      { name: "Services", href: "services" },
+      { name: "Gallery", href: "gallery" },
+      { name: "Review", href: "review" },
+      { name: "Contact", href: "contact" }
     ]
   },
   {

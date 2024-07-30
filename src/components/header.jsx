@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { navLinks } from "../constants/index";
 import { FaSearch, FaUser, FaTimes } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
+import { Link as RouterLink } from "react-router-dom"; // Alias Link from react-router-dom
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll"; // Alias Link from react-scroll
 
 const useMediaQuery = (query) => {
   const [matches, setMatches] = useState(window.matchMedia(query).matches);
@@ -28,7 +29,7 @@ const Header = () => {
   };
 
   // Function to handle link clicks and scroll to sections
-  const handleLinkClick = (event) => {
+   const handleLinkClick = (event) => {
     setOpenNavigation(false);
     // Smooth scroll to section
     const section = document.querySelector(event.target.getAttribute("href"));
@@ -57,13 +58,15 @@ const Header = () => {
         <ul className="hidden lg:flex flex-1 justify-center items-center">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a
-                href={link.href}
-                className="text-[20px] text-white mx-[15px] transition-custom hover:text-[#0080ff] whitespace-nowrap"
-                onClick={handleLinkClick}
+              <ScrollLink
+                to={link.href} // Ensure href corresponds to section ID
+                smooth={true}
+                duration={500}
+                onClick={handleLinkClick} // Optional if you want to handle link clicks
+                className="text-[20px] text-white mx-[15px] transition-custom hover:text-[#0080ff] whitespace-nowrap cursor-pointer"
               >
                 {link.label}
-              </a>
+              </ScrollLink>
             </li>
           ))}
         </ul>
@@ -127,12 +130,12 @@ const Header = () => {
               </div>
             )}
           </div>
-          <Link to="/login">
+          <RouterLink to="/login">
             <FaUser
               size={30}
               className="transition-custom text-white hover:text-[#0080ff]"
             />
-          </Link>
+          </RouterLink>
         </div>
 
         {/* Mobile Menu */}
@@ -152,22 +155,24 @@ const Header = () => {
           <ul className="flex flex-col items-center justify-start mt-8 gap-8">
             {navLinks.map((link) => (
               <li key={link.label} className="w-full text-center">
-                <a
-                  href={link.href}
-                  className="text-[20px] mx-[10px] transition-custom hover:text-[#0080ff] whitespace-nowrap block"
-                  onClick={handleLinkClick}
+                <ScrollLink
+                  to={link.href} // Ensure href corresponds to section ID
+                  smooth={true}
+                  duration={500}
+                  onClick={handleLinkClick} // Optional if you want to handle link clicks
+                  className="text-[20px] mx-[10px] transition-custom hover:text-[#0080ff] whitespace-nowrap block cursor-pointer"
                 >
                   {link.label}
-                </a>
+                </ScrollLink>
               </li>
             ))}
           </ul>
           <div className="flex justify-center items-center mt-auto mb-6 gap-6 cursor-pointer">
-            <Link to="/login">
+            <RouterLink to="/login">
               <button className="py-4 px-12 bg-[hsl(216,100%,51%)] text-white rounded-[8px] mx-12 transition-custom hover:bg-[hsl(216,100%,46%)]">
                 Log in
               </button>
-            </Link>
+            </RouterLink>
           </div>
         </div>
       </nav>
