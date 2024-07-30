@@ -55,10 +55,10 @@ export const gallery = [
 ]
 
 export const review = [
-    {imgURL:pic1 , person:"Abdelrahman Yasser" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"},
+    {imgURL:pic1 , person:"Ethan Johnson" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"},
     {imgURL:pic2 , person:"Magician Band" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"},
-    {imgURL:pic3 , person:"Mohamed Ali" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"},
-    {imgURL:pic4 , person:"Ali Tarek" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"}
+    {imgURL:pic3 , person:"Liam Carter" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"},
+    {imgURL:pic4 , person:"Jackson Davis" , text:"Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Perspiciatis Repellendus Debitis Velit Veniam Asperiores Sit Perferendis Aperiam Expedita Atque Consectetur lusto, Porro Distinctio Exercitationem Dolore Nostrum, Obcaecati Minus Ex Architecto?"}
 ]
 
 export const footer = [

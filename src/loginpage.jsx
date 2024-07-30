@@ -6,7 +6,7 @@ const LoginPage = () => {
   return (
     <>
       <section className=" bg-[#eef2f5] flex items-center justify-center h-screen rounded-[4px] shadow-sm">
-        <div className="bg-white flex flex-col  py-[45px] px-14 max-md:px-10 max-sm:px-8">
+        <div className="bg-white flex flex-col  py-[45px] px-14 max-md:px-10 max-sm:px-3 max-sm:py-4">
           <h1 className="text-[#292929] font-bold text-[30px] mb-3">
             Start Your Journey – Log In
           </h1>
